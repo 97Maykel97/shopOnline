@@ -141,11 +141,8 @@ body {
 
 .header-title {
 	margin: 0;
-	padding-bottom: 65px;
-	font-family: 'Arial MT';
 	font-size: 50px;
-	font-weight: bold;
-	line-height: 1.3;
+	padding-bottom: 65px;
 	color: rgb(45, 45, 45);
 }
 
@@ -203,12 +200,13 @@ body {
 
 .care-title {
 	margin: 0;
-	padding-bottom: 10px;
+	line-height: 33px;
 	font-size: 22px;
 }
 .care-paragraph {
 	margin: 0;
 	padding: 0;
+	line-height: 33px;
 }
 
 .care-wrapper {
