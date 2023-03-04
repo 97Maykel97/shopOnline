@@ -53,12 +53,15 @@ body {
 	color: rgb(82, 82, 82);
 }
 
-.care {
-	width: 1090px;
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+	opacity: 0.5;
+	transition: 0.7s;
 }
 
-.care-subheader {
-	margin: 0;
+.care {
+	width: 1090px;
 }
 
 .care-img {
@@ -98,4 +101,16 @@ body {
 	font-size: 22px;
 	color: rgb(45, 45, 45);
 	line-height: 1.5;
+}
+
+.last-subtitle {
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 1.5;
+}
+
+.subtitle {
+	font-size: 22px;
+	line-height: 1.5;
+	margin: 0;
 }
