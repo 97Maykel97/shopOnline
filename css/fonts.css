@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'lato';
+	src: local('lato regular'), local('lato-regular'),
+		url('../fonts/lato-regular.woff') format('woff2'),
+		url('../fonts/lato-regular.woff') format('woff');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'lato';
+	src: local('lato bold'), local('lato-bold'),
+		url('../fonts/lato-bold.woff') format('woff2'),
+		url('../fonts/lato-bold.woff') format('woff');
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: 'Droid Serif';
+	src: url('../fonts/DroidSerif.woff2') format('woff2'),
+		url('../fonts/DroidSerif.woff') format('woff');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Droid Serif';
+	src: local('Droid Serif Bold'), local('Droid-Serif-Bold'),
+		local('Droid-Serif-Bold') url('../fonts/DroidSerif-Bold.woff2')
+			format('woff2'),
+		url('../fonts/DroidSerif-Bold.woff') format('woff');
+	font-weight: 700;
+}
